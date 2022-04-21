@@ -22,6 +22,21 @@ function Login({ setIsLoggedIn }) {
 
     // after logging the user in, redirect to the home page!
     history.push("/");
+
+    // e.preventDefault();
+    // fetch("http://localhost:3001/login", {
+    //   method: "POST",
+    //   headers: {
+    //     "Content-Type": "application/json",
+    //   },
+    //   body: JSON.stringify(formData),
+    // })
+    //   .then((r) => r.json())
+    //   .then((user) => {
+    //     onLogin(user);
+    //     // after logging the user in, redirect to the home page!
+    //     history.push("/home");
+    //   });
   }
 
   return (
